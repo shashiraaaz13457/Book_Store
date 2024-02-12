@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashi Book Store</title>
+    <link rel="stylesheet" href="Login_page2.css">
+</head>
+<body>
+    <h1>Welcome to the Bookstore</h1>
+    <div id = shashi>
+        <span>Username <input type="text" placeholder="Enter Username" ></span>
+        <span>Password <input type="password" placeholder="Enter password"></span>
+        <button id="book">Submit</button>
+        <!-- <button > New User/SignUp</button> -->
+        <a href="">New User/Sign Up</a>
+    </div>
+</body>
+<script>
+    document.getElementById('book').addEventListener('click', function() {
+        alert('Your Details are saved.');
+        window.location.reload();
+        // document.getElementById('shashi').reset();
+    });
+    
+</script>
+</html>

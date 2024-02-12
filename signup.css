@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Take up the full width of the container */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Take up the full width of the container */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+button:hover {
+    background-color: #207bbd;
+}
